@@ -1,7 +1,7 @@
 library(DSS)
 require(bsseq)
 path_dss = file.path(system.file(package="DSS"), "extdata")
-path="/DATA/users/a.drakaki/5mC/subreads/HG001/aligned/filtered_ref_sorted/haplotagged/cpg_run/reference/model"
+path="/path/to/bed/files"
 setwd(path)
 
 # hap1 reps
