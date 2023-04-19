@@ -4,7 +4,7 @@ path_dss = file.path(system.file(package="DSS"), "extdata")
 path="/path/to/bed/files"
 setwd(path)
 
-# hap1 reps
+# get hap1 replicates
 ext1=".cpg.hap1.reference.mincov4.bed"
 hap1.files = list.files(path=path, pattern=ext1)
 
@@ -16,7 +16,7 @@ for (file in hap1.files){
   
 }
 
-# hap2 reps
+# get hap2 replicatess
 ext2=".cpg.hap2.reference.mincov4.bed"
 hap2.files = list.files(path=path, pattern=ext2)
 
