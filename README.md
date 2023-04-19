@@ -15,4 +15,5 @@ bed files uploaded to the Rstudio environment should contain four columns:
 - 5mC site coordinate
 - number of reads mapped to site
 - number of mapped reads that are methylated,
+
 as explained in the DSS vignette
